@@ -3,7 +3,8 @@ import os
 from src.datascience import logger
 from sklearn.linear_model import ElasticNet
 import joblib
-from src.datascience.config.configuration import ModelTrainerConfig
+
+from src.datascience.entity.config_entity import ModelTrainerConfig
 
 class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):
